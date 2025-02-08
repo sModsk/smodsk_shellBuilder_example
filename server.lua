@@ -1,8 +1,3 @@
-AddEventHandler("smodsk_shellBuilder:CanOpenBuildMenu", function (source, id, callback)
-    callback(true)
-end)
-
-
 RegisterCommand("createShell", function (source, args)
     local id = args[1]
     local x = args[2] and tonumber(args[2])
